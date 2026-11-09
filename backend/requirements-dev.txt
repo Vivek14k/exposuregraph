@@ -1,0 +1,7 @@
+-r requirements.txt
+
+# Test client transport used by the pinned Starlette release.
+httpx2==2.15.1
+
+# Test runner
+pytest==9.2.0

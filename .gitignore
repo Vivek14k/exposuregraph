@@ -1,0 +1,34 @@
+# Environment files and credentials
+.env
+.env.*
+!.env.example
+
+# Local databases and scan data
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite-*
+
+# Python environments, bytecode, and test/build output
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Frontend dependencies and generated output
+frontend/node_modules/
+frontend/dist/
+frontend/coverage/
+
+# Editor, operating system, and logs
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
